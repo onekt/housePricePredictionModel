@@ -1,0 +1,13 @@
+prefix=C:/Users/AGI/Desktop/CODINGP/aip1/hpp_model/Library
+exec_prefix=C:/Users/AGI/Desktop/CODINGP/aip1/hpp_model/Library
+libdir=C:/Users/AGI/Desktop/CODINGP/aip1/hpp_model/Library/lib
+sharedlibdir=C:/Users/AGI/Desktop/CODINGP/aip1/hpp_model/Library/lib
+includedir=C:/Users/AGI/Desktop/CODINGP/aip1/hpp_model/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
